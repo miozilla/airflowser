@@ -2,6 +2,7 @@
 airflowser : #airflow #composer #dag
 
 ## Objective
+- To create and run Apache Airflow workflows in Cloud Composer to move data between Cloud Storage and BigQuery
 - Reads from a config file that provides a list of tables to copy
 - Exports the list of tables from a BigQuery dataset located in US to Cloud Storage
 - Copies the exported tables from the US to EU Cloud Storage bucket
